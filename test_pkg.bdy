@@ -12,7 +12,7 @@ create or replace package body test_pkg as
    is
    begin
       p_out1 := '1';
-      p_out2 := '211223';
+      p_out2 := '2';
    end;
 
    procedure ret_3 (p_in1   in  varchar2, 
@@ -23,7 +23,7 @@ create or replace package body test_pkg as
    begin
       p_out1 := '1';
       p_out2 := '2';
-      p_out3 := '311223';
+      p_out3 := '3';
    end;
 
    function get_stmt (p_select    in  varchar2,
